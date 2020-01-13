@@ -12,5 +12,5 @@
 */
 
 Route::get('/{any?}', function (){
-    return view('vue');
+    return view('index');
 })->where('any', '[\/\w\.-]*');
