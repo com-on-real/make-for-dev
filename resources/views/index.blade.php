@@ -28,10 +28,7 @@
                             <a href="{{ url('/home') }}">Home</a>
                         @else
                             <router-link to="/login">Login</router-link>
-
-                            @if (Route::has('register'))
-                                <router-link to="/register">Register</router-link>
-                            @endif
+                            <router-link to="/register">Register</router-link>
                         @endauth
                     </div>
                 <div class="links">
