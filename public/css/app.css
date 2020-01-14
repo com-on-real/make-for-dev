@@ -11358,8 +11358,8 @@ a.text-dark:focus {
 
 html,
 body {
-  background-color: #34495e;
-  color: #ecf0f1;
+  background-color: #ecf0f1;
+  color: #34495e;
   font-family: "Nunito", sans-serif;
   font-weight: 200;
   height: 100vh;

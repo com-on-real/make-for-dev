@@ -14,7 +14,7 @@
     module.exports = {
         data: function() {
             return {
-                msg: 'Accueil'
+                msg: 'Login'
             }
         }
     }

@@ -23,8 +23,6 @@
 <style>
     #app {
         text-align: center;
-        color: #ecf0f1;
-        margin-top: 60px;
     }
     .msg {
         margin-top: 60px;
