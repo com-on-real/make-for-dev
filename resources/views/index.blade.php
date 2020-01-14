@@ -23,19 +23,18 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div id="app">
-                    <div class="top-right links">
-                        @auth
-                            <a href="{{ url('/home') }}">Home</a>
-                        @else
-                            <router-link to="/login">Login</router-link>
-                            <router-link to="/register">Register</router-link>
-                        @endauth
-                    </div>
+                <div class="top-right links">
+                    @auth
+                        <a href="{{ url('/home') }}">Home</a>
+                    @else
+                        <router-link to="/login">Login</router-link>
+                        <router-link to="/register">Register</router-link>
+                    @endauth
+                </div>
                 <div class="links">
                     <router-link to="/">Home</router-link>
                     <router-link to="/space">Space</router-link>
                 </div>
-
                 <router-view></router-view>
             </div>
         </div>
