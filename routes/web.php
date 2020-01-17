@@ -14,7 +14,6 @@
 Route::middleware('auth')->get('/v/{any?}', function (){
     return view('vue');
 })->where('any', '[\/\w\.-]*');
-
 */
 
 Auth::routes();
@@ -24,4 +23,3 @@ Route::get('/', 'IndexController@index');
 
 // HomeController->auth
 Route::middleware('auth')->get('/home', 'HomeController@index');
-
